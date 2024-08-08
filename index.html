@@ -1,0 +1,227 @@
+<!-- This is the html file of the clone of appy fizz website -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="fizz.js">
+    <link rel="icon" href="./images/fizzicon.png">
+    <title>Appy Fizz</title>
+</head>
+
+<body>
+    <!-- SECTION 1 NAVBAR -->
+
+    <section>
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon rounded-1" style="background-color: #0A0B27;"></span>
+                </button>
+                <div class="collapse navbar-collapse" style="justify-content: end;" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="hover nav-link active text-white" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="hover nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Companies
+                            </a>
+                            <ul class="dropdown-menu" style="background-color:#E53F27 ; border-radius: 0%; border-bottom: 4px solid black; margin-top: 9px;" >
+
+                                <li><a class="dropdown-item" href="#">About us</a></li>
+                                <li><a class="dropdown-item" href="#">People</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="hover nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Brands
+                            </a>
+                            <ul class="dropdown-menu" style="background-color:#E53F27 ; border-radius: 0%; border-bottom: 4px solid black; margin-top: 9px;" >
+
+                                <li><a class="dropdown-item" href="#">Appy</a></li>
+                                <li><a class="dropdown-item" href="#">Appy Fizz</a></li>
+                                <li><a class="dropdown-item" href="#">Frooti</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="hover nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Business
+                            </a>
+                            <ul class="dropdown-menu" style="background-color:#E53F27 ; border-radius: 0%; border-bottom: 4px solid black; margin-top: 9px;" >
+
+                                <li><a class="dropdown-item" href="#">Preforms</a></li>
+                                <li><a class="dropdown-item" href="#">International Business</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="hover nav-link text-white" href="#">News-Room</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="hover nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Sustainability
+                            </a>
+                            <ul class="dropdown-menu" style="background-color:#E53F27 ; border-radius: 0%; border-bottom: 4px solid black; margin-top: 9px;" >
+                                <li><a class="dropdown-item" href="#">Our Responsibility</a></li>
+                                <li><a class="dropdown-item" href="#">PGC Foundation</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="hover nav-link active text-white" aria-current="page" href="#">Career</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="hover nav-link active text-white" aria-current="page" href="#">Contact us</a>
+                        </li>
+                     </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <!-- SECTION 2 MAIN IMAGE -->
+
+    <section>
+        <img src="images/bgimage.jpg" style="position: static;" class="img-fluid" alt="Image not working">
+    </section>
+
+    <!-- SECTION 3 ANIMATION AND DESCRIPTION -->
+
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class=" roww-1 col-lg-6 bg-black" onmouseover="rotate()" onmouseleave="rotatereverse()">
+                    <h1 class=" rotating-head h1 ">New Appy <br> Fizz</h1>
+                    <img id="image-aneme" class="rotate-on-scroll img-fluid mx-auto my-auto d-flex"
+    src="images/042954050849E9452E_01.png" alt="Wait...Loading..">
+                </div>
+                <div class="description col-lg-6 bg-white">
+                    <p>
+                        Launched in 2005, Appy Fizz was India's first sparkling apple juice. Its unique packaging and
+                        taste made it feel
+                        like the champagne of fruit drinks. Today, Appy Fizz is one of the largest beverage brands in
+                        India. It has a crisp
+                        apple flavour that is balanced with just the right amount of fizz, giving you a cool drink that
+                        can transport you to the realm of a refreshing experience.
+                        <br>
+                        <br>
+                        Its bold & fashionable design emphasizes its strong confident personality that reflects the
+                        modern expressive & ambitious Indian youth of today.
+                        <br>
+                        <br>
+                        The Appy Fizz experience can be enjoyed in multiple ways. It is available in PET bottles of
+                        125ml, 175ml, 250ml, 600ml, 1ltr and 1.5ltr & 250ml cans
+                    </p>
+                    <ul class="footernav">
+                        <a href="https://instagram.com/facebook?igshid=NjIwNzIyMDk2Mg=="><img src="images/facebook.png"
+                                alt=""></a>
+                        <a href="https://instagram.com/parleproducts?igshid=NjIwNzIyMDk2Mg=="><img
+                                src="images/download (1).png" alt=""></a>
+                        <a href="https://instagram.com/twitter?igshid=NjIwNzIyMDk2Mg=="><img src="images/download.png"
+                                alt=""></a>
+                        <a href="https://instagram.com/youtube?igshid=NjIwNzIyMDk2Mg=="><img src="images/youtube.png"
+                                alt=""></a>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <img src="images/053402APPY-FIZZ_Social-Media_Range_2023.jpg" style="position: static;" class="img-fluid"
+            alt="...">
+    </section>
+
+    <section>
+        <div class=" footer row">
+            <div class="col-sm-4 mb-3 mb-sm-0">
+                <div class="card border-0">
+                    <div class="card-body">
+                        <address>
+                            Corporate Head Office
+                            <br>
+                            Parle Agro Pvt. Ltd.,
+                            <br>
+                            off Western Express Highway,
+                            <br>
+                            Sahar-Chakala Road, Parsiwada,
+                            <br>
+                            Andheri (E), Mumbai 400 099.
+                            <br>
+                            2019, Parle Agro© All rights reserved.
+                        </address>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card border-0">
+                    <div class="card-body">
+                        <address>
+                            If you have a particular query, please select the concerned
+                            department:
+                            <br>
+                            <a href="exports@parleagro.com"><span>exports@parleagro.com</span></a>
+                            <br>
+                            <a href="preforms@parleagro.com"><span>preforms@parleagro.com</span></a>
+                            <br>
+                            <a href="consumercell@parleagro.com"><span>consumercell@parleagro.com</span></a>
+                            <br>
+                            <a href="corpcomm@parleagro.com"><span>corpcomm@parleagro.com</span></a>
+                        </address>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card border-0">
+                    <div class="card-body">
+                        <address>
+                            Our Policy:<a href="https://www.parleagro.com/brand/vigil-mechanisim-policy.pdf"><span>Vigil
+                                    Mechanism Policy</span></a>
+                            <br>
+                            <span>Annual Return</span>
+                            <br>
+                            Get in touch:
+                            <br>
+                            T: 022 - 6734 8000
+                            <br>
+                            E: <a href="info@parleagro.com"><span>info@parleagro.com</span></a>
+                            <br>
+                            Follow us : Instagram, Twitter and Linkedin
+                        </address>
+                        <ul class="footernav">
+                            <a href="https://instagram.com/facebook?igshid=NjIwNzIyMDk2Mg=="><img
+                                    src="images/facebook.png" alt=""></a>
+                            <a href="https://instagram.com/twitter?igshid=NjIwNzIyMDk2Mg=="><img
+                                    src="images/download.png" alt=""></a>
+                            <a href="https://instagram.com/parleproducts?igshid=NjIwNzIyMDk2Mg=="><img
+                                    src="images/download (1).png" alt=""></a>
+                            <a href="https://instagram.com/youtube?igshid=NjIwNzIyMDk2Mg=="><img
+                                    src="images/youtube.png" alt=""></a>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Linking necessary js files and frameworks from bootstrap -->
+
+    <script src="script.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
